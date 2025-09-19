@@ -20,14 +20,11 @@ To run the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/Github-list-react.git
 
-2. Navigate to the project folder:
-  
-  cd Github-list-react
+2. Navigate to the project folder: 
+  - cd Github-list-react
 
 3. Install the dependencies:
-  
-  npm install
+  - npm install
 
 4. Run the project:
-  
-  npm run dev
+  - npm run dev
