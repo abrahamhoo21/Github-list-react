@@ -10,10 +10,24 @@ A React application that displays a list of trending repositories from GitHub, w
 - Fetches data from GitHub API.
 - Infinite scrolling to load more repositories.
 
-## Setup
+## Setup instruction and details
+
+- Use the following version of Node: v20.19.0.
 
 To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Github-list-react.git
+
+2. Navigate to the project folder:
+  ```bash
+  cd Github-list-react
+
+3. Install the dependencies:
+  ```bash
+  npm install
+
+4. Run the project:
+  ```bash
+  npm run dev
