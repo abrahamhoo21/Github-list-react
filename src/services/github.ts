@@ -13,7 +13,7 @@ const last10DaysDate = getLast10DaysDate();
 // Function to fetch top repos from GitHub API
 export async function fetchTopRepos(page: number = 1, perPage: number = 15): Promise<Repo[]> {
     // Construct the URL with dynamic query parameters
-    const url = `${TRENDING_REPOS_URL}?q=created:>${last10DaysDate}&sort=stars&order=desc&page=${page}&per_page${perPage}`;
+    const url = `${TRENDING_REPOS_URL}?q=created:>${last10DaysDate}&sort=stars&order=desc&page=${page}&per_page=${perPage}`;
     console.log("Constructed URL:", url);
 
     const headers = {
